@@ -90,7 +90,6 @@ class FilesModel:
 
         file_to_download = fs.get(file_id).read()
         folder = download_location + file['filename']
-        output = open(folder, 'wb')
-        output.write(file_to_download)
-        output.close()
+        with open (folder, 'wb') as downloader:
+            downloader.write(file_to_download)
         return {'message': 'File downloaded successfully!'}
