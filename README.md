@@ -15,7 +15,7 @@ Para instalar o sistema, é necessário seguir alguns passos, como baixar o proj
 Depois que terminar de baixar, é necessário entrar na pasta, criar um ambiente virtual e entrar nele:
 
     #Entrar na pasta
-    cd banco-de-imagens
+    cd banco-de-arquivos
 
     #Criar um ambiente virtual
     python -m venv venv --upgrade-deps
